@@ -6,7 +6,7 @@ export default function bubbleSort(array) {
         sorted = true
         for (let i = 0; i < unsorted_until_index; i++) {
             if (array[i] > array[i + 1]) {
-                array[i], array[i + 1] = array[i + 1], array[i]
+                [array[i], array[i + 1]] = [array[i + 1], array[i]]
                 sorted = false
             }
         }
