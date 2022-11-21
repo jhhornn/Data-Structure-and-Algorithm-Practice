@@ -1,4 +1,4 @@
-function bubbleSort(array) {
+export default function bubbleSort(array) {
     let unsorted_until_index = array.length
     let sorted = false
 
